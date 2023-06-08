@@ -36,8 +36,9 @@ export default function Home() {
     cancel, error, isInProgress } =
 useDownloader();
 
-const fileUrl = "/management_progrès.pptx";
-const filename = "management_progrès.pptx";
+const fileUrl = "/My_vm.ova";
+const fileUrl2 = "/management_progrès.pptx";
+const filename = "myKaliLinuxVM.ova";
 
 function barre_chargement() {
   return (

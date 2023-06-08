@@ -46,7 +46,7 @@ class NameForm extends React.Component {
   handleChange(event) {    this.setState({value: event.target.value});  }
   handleSubmit(event) {
     //alert('Le nom a été soumis : ' + this.state.value);
-    if(this.state.value.replace(' ','')=="16212") {
+    if(this.state.value.replace(' ','')=="16212"||this.state.value.replace(' ','')=="5311") {
       alert("C'est la bonne réponse !")
       this.setState({answered: true});
     }
@@ -100,7 +100,7 @@ class NameForm extends React.Component {
             <div STYLE="margin-bottom:2%" className="larger_text">&emsp;&emsp;&emsp;Il est temps de mettre en pratique l'ensemble des compétences que vous avez pu acquérir jusqu'ici.</div>
             <div STYLE="margin-bottom:2%" className="larger_text">&emsp;&emsp;&emsp;Pour cela, vous allez tenter de prendre le contrôle d'un jeune site internet développé avec next js, dont les créateurs ont fait l'erreur de le déployer trop tôt sur le worldwide web.</div>
             <div STYLE="margin-bottom:2%" className="larger_text">&emsp;&emsp;&emsp;En suivant les indications de chaque page et en mettant en oeuvre vos compétences, vous devriez trouver les bannières ("flag") accessibles partout sur la cible. Elles correspondraient dans le cas d'une machine réelle à des failles de sécurité ou à des informations exploitables contre l'hôte.</div>
-            <div STYLE="margin-bottom:5%" className="larger_text">&emsp;&emsp;&emsp; Vous pouvez retrouver la cible de cette exercice déployée à l'adresse URI suivante : <a href="https://targetcyber.vercel.app" STYLE="color:black">targetsystem.vercel.app</a>. Il s'agit d'une boite de niveau facile, ne vous demandant pas de connaissances particulières en informatique hors du contenu précédent. Néanmoins, la recherche de documentation sur internet est autorisée, et même encouragée ! Vous pouvez encore apprendre à manipuler de nombreux outils de cybersécurité, et vous pouvez également vous renseigner sur les failles de sécurité que vous pourriez rencontrer.</div>
+            <div STYLE="margin-bottom:5%" className="larger_text">&emsp;&emsp;&emsp; Vous pouvez retrouver la cible de cet exercice déployée à l'adresse URI suivante : <a href="https://targetcyber.vercel.app" STYLE="color:black">targetsystem.vercel.app</a>. Il s'agit d'une boite de niveau facile, ne vous demandant pas de connaissances particulières en informatique hors du contenu précédent. Néanmoins, la recherche de documentation sur internet est autorisée, et même encouragée ! Vous pouvez encore apprendre à manipuler de nombreux outils de cybersécurité, et vous pouvez également vous renseigner sur les failles de sécurité que vous pourriez rencontrer.</div>
 
 
       {/*Poser une question réponse dans un champ texte, accès à la réponse grâce à la classe Connexion*/}
