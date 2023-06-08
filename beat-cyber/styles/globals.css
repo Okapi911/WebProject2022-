@@ -1,26 +1,382 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import "@fontsource/public-sans";
+
+/* Path: beat-cyber\styles\globals.css */
+
+p {
+  font-family: "Arial","Public Sans", sans-serif;
+  font-weight: bold;
+  font-size: larger;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+#carouselExampleCaptions {
+  width: 50%;
+  height: 20%;
+  background: #000;
+  position: relative;
+  overflow: visible;
+  margin-left: 100px;
+  
 }
 
-* {
-  box-sizing: border-box;
+#carouselExampleCaptions img {
+  width : 250px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
+main {
+  background-color: seashell;
+}
+
+#car_caption1 {
+    text-align: right;
+    padding-left: 45%;
+    padding-bottom: 8%;
+    font-size: larger;
+    font-weight: bolder;
+}
+#car_caption2 {
+    font-size: larger;
+    font-weight: bolder;
+    color: red;
+    height: 60px;
+}
+
+.top_page_header {
+    height : 230px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main_title {
+    font-size: 50px;
+    font-weight: bold;
     color: white;
-    background: black;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-right: 5%;
+}
+
+#login_button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 10px;
+    border-color: orange;
+}
+#login_button:hover {
+    border-radius: 10px;
+}
+#login_button:active {
+    border-color: #801dc2;
+    border-radius: 20px;
+}
+.align_right {
+    text-align: right;
+    margin-right: 6%;
+}
+
+.flip_list {
+    list-style-type: none;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding-left: 4%;
+}
+
+.internal_links1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.internal_links1:hover {
+    font-size: larger;
+}
+.internal_links1:active {
+    color: #801dc2;
+}
+
+.flip {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: seashell;
+    border-right: 1px solid #bbb;
+    display: inline-flex;
+    margin-top : 5%;
+}
+
+#main_card {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 35%;
+    border-radius: 10px;
+}
+
+.internal_links2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.internal_links2:hover {
+    font-size: larger;
+}
+.internal_links2:active {
+    color: #801dc2;
+}
+
+.flip_list2 {
+    list-style-type: none;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding-right: 4%;
+}
+
+.top_page_footer {
+    height : 115px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+#desc_card1 {
+    text-align: justify;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.card-text {
+    text-align: center;
+}
+
+#upside_down_cards_row{
+    margin-top: 5%;
+    margin-left: 2%;
+    padding-bottom: 5%;
+    margin-right:2%;
+}
+
+#upside_down_cards_row2{
+    margin-top: 2%;
+    margin-left: 2%;
+    padding-bottom: 5%;
+    margin-right:2%;
+}
+
+#upside_down_cards_row3{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right:5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #000;
+    border-style: solid;
+    margin-bottom: 5%;
+}
+
+#page_title {
+    text-align: center;
+    text-decoration: underline;
+    text-emphasis: bold;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color : seashell;
+}
+
+#card_inter:hover {
+    background-color: #4c4545;
+    color: #fff;
+}
+
+#shadow_and_border:hover{
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #000;
+    shape-outside: margin-box;
+    box-shadow: 0 0 10px #000;
+}
+
+#main_card_shadow {
+    box-shadow: 0 0 10px #000;
+}
+
+.login_button {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: orange;
+    text-decoration: none;
+}
+.login_button:hover {
+    color: red;
+}
+
+.login_button:active {
+    color: red;
+}
+
+#pretty_row_button {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#carouselExampleCaptions_page2 {
+    width: 20%;
+    height: 20%;
+    background: #000;
+    position: relative;
+    overflow: visible;
+    margin-left: 100px;
+    
   }
+  
+  #carouselExampleCaptions_page2 img {
+    width : 150px;
+  }
+
+#main_card_page2 {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 31%;
+    border-radius: 10px;
+}
+
+#furtive_button {
+    background-color: #d4d4d4;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border-width: 0;
+    margin-top: 5%;
+}
+#furtive_button:hover {
+    background-color: #f7cece;
+    color: #000;
+    border-color: #000;
+    border-radius: 10px;
+}
+
+
+.nice_subtitle{
+    border-top: 2px groove indigo;
+    border-bottom: 2px groove indigo;
+    width : 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+.flip_and_divide {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+}
+
+.Room_Links {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+li {
+    text-align: justify;
+    text-decoration: none;
+}
+
+#thin_and_furtive{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+}
+
+#card_form {
+    text-align: center;
+    margin-left: 0px;
+}
+
+#test123 {
+    margin-left: 0px;
+    text-align : center;
+}
+
+#form_pic {
+    margin-right: 0px;
+}
+
+#form_content {
+    margin-left: 0px;
+    text-align: left;
+}
+
+.form_group {  
+    padding: 10px;  
+    ;    
+  display: block;  
+  }  
+    
+  label {  
+    float: left;  
+    padding-right: 50px;  
+    line-height: 10%;  
+    display: block;  
+    width: 208px;  
+  }
+
+input {
+    color: #000;
+}
+
+.larger_text {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: justify;
 }
